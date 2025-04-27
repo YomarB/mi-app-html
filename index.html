@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorías</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: #0A0A0A;
+            color: #E0E0E0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .categories {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .categories-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .categories h2 {
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #BB86FC;
+        }
+
+        .logo-x {
+            width: 60px;
+            height: 60px;
+        }
+
+        .category {
+            display: flex;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #424242;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .category:hover {
+            background-color: #1A1A1A;
+        }
+
+        .category-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: #3700B3;
+            margin-right: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+
+        .category-text {
+            flex-grow: 1;
+        }
+
+        .category-text h3 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            color: #03DAC6;
+        }
+
+        .category-text p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #B0B0B0;
+        }
+
+        .category-arrow {
+            font-size: 24px;
+            color: #BB86FC;
+        }
+    </style>
+</head>
+<body>
+    <div class="categories">
+        <div class="categories-header">
+            <h2>CATEGORÍAS</h2>
+            <img src="https://i.ibb.co/xtKxf7LV/file-00000000eec0622fb18bbaea2669aa18-conversation-id-680bea76-74b4-8000-a15d-f4df1b2be871-message-i.png" alt="Logo X" class="logo-x">
+        </div>
+        <a href="Pa.html" class="category">
+            <div class="category-icon">🌍</div>
+            <div class="category-text">
+                <h3>TV PAÍSES</h3>
+                <p>Canales de noticias y locales de cada país.</p>
+            </div>
+            <div class="category-arrow">></div>
+        </a>
+        <div class="category">
+            <div class="category-icon">🏃</div>
+            <div class="category-text">
+                <h3>DEPORTES</h3>
+                <p>Los eventos deportivos más importantes del mundo.</p>
+            </div>
+            <div class="category-arrow">></div>
+        </div>
+        <div class="category">
+            <div class="category-icon">🎭</div>
+            <div class="category-text">
+                <h3>CULTURA</h3>
+                <p>Tus documentales e historias favoritas, aquí.</p>
+            </div>
+            <div class="category-arrow">></div>
+        </div>
+        <div class="category">
+            <div class="category-icon">🎬</div>
+            <div class="category-text">
+                <h3>CINE PREMIUM</h3>
+                <p>Las mejores y exclusivas películas y series premium.</p>
+            </div>
+            <div class="category-arrow">></div>
+        </div>
+        <div class="category">
+            <div class="category-icon">🎤</div>
+            <div class="category-text">
+                <h3>ENTRETENIMIENTO</h3>
+                <p>Contenido variado: novelas, series, películas y mucho más.</p>
+            </div>
+            <div class="category-arrow">></div>
+        </div>
+        <div class="category">
+            <div class="category-icon">👶</div>
+            <div class="category-text">
+                <h3>INFANTILES</h3>
+                <p>La máxima diversión para los pequeños de la casa.</p>
+            </div>
+            <div class="category-arrow">></div>
+        </div>
+    </div>
+</body>
+</html>
