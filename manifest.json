@@ -1,11 +1,11 @@
 {
-  "name": "Mi App",
-  "short_name": "MiApp",
-  "description": "Una breve descripción de mi PWA.",
-  "start_url": "/",
+  "name": "Mi App TV",
+  "short_name": "TV App",
+  "description": "Una aplicación web que muestra categorías de contenido como TV Países, Deportes, Cultura, Cine, Entretenimiento e Infantiles.",
+  "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "background_color": "#0A0A0A",
+  "theme_color": "#BB86FC",
   "icons": [
     {
       "src": "icono.png",
